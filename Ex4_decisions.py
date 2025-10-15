@@ -108,12 +108,29 @@ else:
 # Use conditions to print a message only if the number is greater than a value
 # AND the word matches a stored word.
 
+stored_number = 50
+stored_word = "hello"
+number = int(input("Enter a number: "))
+word = input("Enter a word: ")
+if number > stored_number and word == stored_word:
+    print("Both conditions are true.")
+else:
+    print("Both conditions not met.")    
 # Extension 2:
 # Ask the user for a number.
 # Print different messages depending on:
 # - number is positive
 # - number is zero
 # - number is negative
+
+number = int(input("Enter a number: "))
+if number > 0:
+    print("number is positive. ")
+elif number == 0:
+    print ("number is zero.")
+else:
+    print("number is negative.") 
+
 
 # Extension 3 (more challenging):
 # Create a small quiz:
@@ -124,6 +141,21 @@ else:
 # Write your extension code below:
 
 
+   
+print("===Welcome to the Quiz===\n")
+print("What is the capital of France?")
+print("A) London")
+print("B) Berlin")
+print("C) Paris")
+print("D) Madrid")
+
+answer = input("Your answer: ").upper().strip()
+if answer == "C": 
+    print("Correct!\n")  
+elif answer == "PARIS":
+    print("Right answer, but please use the letter next time!\n")     
+else :
+    print("Incorrect. The answer is (C) Paris.\n")
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
