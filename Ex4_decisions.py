@@ -29,7 +29,9 @@
 
 # Write your code below:
 
-
+number = int(input("Enter a number \n"))
+if number > 50:
+   print ("That is a big number.")
 # -------------------------------------------
 # Task 2: Add else
 # -------------------------------------------
@@ -49,6 +51,11 @@
 
 # Write your code below:
 
+number = int(input("Enter a number \n"))
+if number > 50:
+   print ("That is a big number.")
+else:
+   print("That is a small number.")
 
 # -------------------------------------------
 # Task 3: Multiple conditions
@@ -72,7 +79,13 @@
 
 # Write your code below:
 
-
+number = int(input("Enter a number \n"))
+if number > 50:
+   print ("That is a big number.")
+elif number == 50:
+   print ("That is exactly same number.")
+else:
+   print("That is a small number.")
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
